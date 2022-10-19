@@ -15,9 +15,9 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x]
+        node-version: [16.x]
         # host's node version goes here eg [node_version]
-        # multiple version can potentially cause errors
+        # multiple versions can potentially cause errors
 
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 

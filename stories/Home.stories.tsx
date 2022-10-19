@@ -1,13 +1,13 @@
-import React from 'react';
-import { ComponentMeta, ComponentStory } from '@storybook/react';
+import React from "react";
+import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-import HomePage from '../pages';
+import HomePage from "../pages";
 
 export default {
-  title: 'Pages/Home',
+  title: "Pages/Home",
   component: HomePage,
   parameters: {
-    layout: 'fullscreen',
+    layout: "fullscreen",
   },
 } as ComponentMeta<typeof HomePage>;
 

@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cypress:open": "cypress open",
-    "storybook": "start-storybook -p 6006"
+    "open-cypress": "cypress open",
+    "start-storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "check-format": "prettier --check ."
   },
   "dependencies": {
     "next": "12.3.1",

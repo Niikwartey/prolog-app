@@ -1,7 +1,7 @@
 describe("Home page", () => {
   it("should render welcome message", () => {
     cy.visit("http://localhost:3000");
-    cy.get("h1").contains(/welcome to nextjs/i);
+    cy.get("h1").contains(/welcome to next.js/i);
   });
 });
 

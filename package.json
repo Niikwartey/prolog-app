@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "open-cypress": "cypress open --config-file=cypress.config.ts",
-    "cypress": "cypress open --config-file=cypress.config.ts",
+    "open-cypress": "cypress open",
     "start-storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "check-format": "prettier --check ."

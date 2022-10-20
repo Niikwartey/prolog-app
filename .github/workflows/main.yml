@@ -16,8 +16,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: "14"
-          cache: "npm"
+          node-version: '16'
+          cache: 'npm'
       # install dependencies
       - run: npm ci
       # run ESLint & Prettier
@@ -27,6 +27,6 @@ jobs:
       - run: npm run build
       # run tests with Cypress
       - name: Cypress run
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v4
         with:
           start: npm start

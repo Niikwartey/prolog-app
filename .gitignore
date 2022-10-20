@@ -38,4 +38,4 @@ next-env.d.ts
 .vscode
 
 # Cypress test videos
-# cypress/videos/
+cypress/videos/

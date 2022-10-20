@@ -1,9 +1,9 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
-import styled from 'styled-components';
-import styles from '../styles/Home.module.css';
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import styled from "styled-components";
+import styles from "../styles/Home.module.css";
 
 type ContainerProps = {
   bgColor?: string;
@@ -11,7 +11,7 @@ type ContainerProps = {
 
 const Container = styled.div<ContainerProps>`
   padding: 0 2rem;
-  ${(props) => props.bgColor && 'background-color: ' + props.bgColor};
+  ${(props) => props.bgColor && "background-color: " + props.bgColor};
 `;
 
 const Home: NextPage = () => {
@@ -32,11 +32,11 @@ const Home: NextPage = () => {
         </nav>
 
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js</a>!
+          Welcome to <a href="https://nextjs.org">Prolog</a>!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{" "}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
@@ -77,7 +77,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>

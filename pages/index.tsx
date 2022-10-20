@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styled from 'styled-components';
 import styles from '../styles/Home.module.css';
-import f from 'nothing';
 
 type ContainerProps = {
   bgColor?: string;
